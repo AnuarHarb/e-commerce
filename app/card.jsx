@@ -76,7 +76,7 @@ const StyledCard = styled.article`
   }
 `;
 
-export const Card = ({ title }) => {
+export const Card = ({ title, image, price, subtitle }) => {
   const [isLiked, setIsLiked] = useState(false);
   const [inCart, setInCart] = useState(false);
 
