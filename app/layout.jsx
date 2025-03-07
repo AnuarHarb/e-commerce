@@ -16,7 +16,12 @@ export const Layout = () => {
     <Container>
       <h1>¡Este es mi primer componente!</h1>
       <div className="list">
-        <Card title="Monitor" />
+        <Card
+          title="Monitor"
+          image="/monitor.jpg"
+          price="100"
+          subtitle="para computadora"
+        />
         <Card
           title="juguete"
           image="/juguete.webp"
