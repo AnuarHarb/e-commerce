@@ -11,9 +11,11 @@ const StyledCard = styled.article`
   padding: 8px;
   background-color: aliceblue;
   font-family: "Atkinson Hyperlegible Mono", sans-serif;
+  width: 300px;
 
   img {
-    width: 200px;
+    background-color: white;
+    width: 100%;
   }
 
   header {
