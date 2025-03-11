@@ -10,7 +10,7 @@ const StyledCard = styled.article`
   box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.45);
   padding: 8px;
   background-color: aliceblue;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Atkinson Hyperlegible Mono", sans-serif;
 
   img {
     width: 200px;
